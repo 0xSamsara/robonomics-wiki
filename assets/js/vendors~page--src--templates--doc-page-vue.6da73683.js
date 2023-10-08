@@ -19,7 +19,7 @@ eval("// Returns a wrapper function that returns a wrapped callback\n// The wrap
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nvar $TypeError = TypeError;\n\nmodule.exports = function (passed, required) {\n  if (passed < required) throw $TypeError('Not enough arguments');\n  return passed;\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/internals/validate-arguments-length.js?");
+eval("\nvar $TypeError = TypeError;\n\nmodule.exports = function (passed, required) {\n  if (passed < required) throw new $TypeError('Not enough arguments');\n  return passed;\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/internals/validate-arguments-length.js?");
 
 /***/ }),
 
